@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "391112766648",
+    "firebase_url": "https://fir-c21ed.firebaseio.com",
+    "project_id": "fir-c21ed",
+    "storage_bucket": "fir-c21ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391112766648:android:147df78227558c7a",
+        "android_client_info": {
+          "package_name": "com.example.lenovo.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391112766648-ai785bb7ibn8ccj23p9e4dehimq07nvm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqholYSKg7u2pn3Y3akMHeIg5CeYXyu34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

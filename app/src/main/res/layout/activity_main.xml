@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/goToAddShop"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="190dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToAddShop"
+        android:text="Add Shop"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="87dp"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimary"
+        android:onClick="openLogin"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/goToMaps"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp"
+        android:background="@color/colorPrimary"
+        android:onClick="goToMaps"
+        android:text="Look for a shop"
+        android:textColor="#FFF" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="236dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="35dp"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"
+        android:onClick="openRegister"
+        android:text="SIGN UP" />
+</RelativeLayout>
